@@ -1,0 +1,51 @@
+body { background-color: #e9e9eb; font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif; }
+.fee-container-form { padding: 20px 0; }
+.fee-mob-header{ background-color:#fff; margin-bottom:25px;}
+.fee-mob-header-title{ background-color:#ee7929; color:#fff; text-align:center; padding:10px;  line-height:26px; position:relative;}
+.fee-mob-header-title font{font-size:16px; font-weight:bold;}
+.fee-mob-header-title ol { position:absolute; right:15px; top:10px;}
+.fee-mob-header-title ol li{ list-style:none; float:left; margin-left:25px; font-size:12px; cursor:pointer;}
+.fee-mob-header-title ol li:hover{ opacity:.8;}
+.fee-mob-header-title ol li span{ margin-right:5px;}
+.fee-mob-header-main{ display:flex; padding: 10px 30px; }
+.fee-mob-header-main > div{ flex:1;}
+.fee-mob-header-main > div p:first-of-type{line-height: 31px; font-size: 16px;}
+div.fee-mob-tcode{ text-align:center; width:70px; flex:none;}
+.fee-mob-tcode img,.fee-mob-tcode span{width:70px; height:70px; font-size:70px;}
+.fee-mob-header-main >div p:last-of-type{ color:#C3C3C3; line-height:16px;  font-size:12px;}
+.fee-mob-header-main >div p:last-of-type span{ border-radius:50%; margin-right:5px;}
+.fee-mob-username p font,.fee-mob-sum font{  font-size: 22px;font-weight: bold; margin-right: 10px;}
+.fee-mob-sum font{ color:tomato;}
+.fee-mob{ background-color:#fff; margin-bottom:25px;}
+.fee-mob-title {border-bottom: 1px solid #ddd;padding: 15px;position: relative;color: tomato;cursor: font-size:16px;}
+.fee-mob-title:before { display: block; content: ""; width: 5px; height: 20px; background-color: #ee7929; position: absolute; left: 0; top:16px; }
+.fee-mob-main { padding: 8px 0; display:flex; position:relative; border-bottom:1px solid #ddd; margin:0 25px;}
+.fee-mob-main:last-child{ border:none;}
+.fee-mob-main > div{ flex:1; padding:10px 15px;}
+.fee-mob-main > div:first-child{ padding-left:0;}
+.fee-mob-main > div:last-child{ padding-right:0;}
+.fee-template-text{ display: flex; font-size:12px; margin:0;}
+.fee-template-text dt{ text-align:center; }
+.fee-template-text dt span{ color:tomato; margin-right:5px;}
+.fee-template-text dt,.fee-template-text dd{  line-height:34px;}
+.fee-template-text dd:first-of-type{padding:0 10px; -webkit-flex:1;}
+.fee-template-text dd:last-of-type{ text-align:center; width:26px; color:#999;}
+.fee-textarea p{ margin:0; line-height:26px; margin-bottom:5px;}
+.fee-textarea p span{ color:#40A6DA; margin-right:5px;}
+.fee-textarea textarea{ resize:none;}
+.fee-mob-btn{ text-align:center; margin:20px 0;}
+.fee-mob-btn a, .fee-mob-btn button{ background-color:#ee7929; color:#fff; padding:10px 35px; margin:0 15px;border:none;border-radius:0;}
+.fee-mob-btn a:hover, .fee-mob-btn button:hover{ color:#fff;text-decoration:none; background-color:#D76D24;} 
+.fee-mob-btn a.gray, .fee-mob-btn button.gray{ background-color:#777;color:#fff}
+.fee-mob-btn a.gray:hover .fee-mob-btn button.gray:hover{ background-color:#666;color:#fff}
+.fee-template-select{ display:flex; margin:0;}
+.fee-template-select dd{ flex:1;position:relative;}
+.fee-template-select dt{ width:20px; line-height:34px; font-size:12px; color:tomato;}
+.fee-container-form .form-control{ border-radius:0;}
+.fee-form-radio { padding:12px 0;margin-top:-25px;}
+.fee-form-radio label{ margin-right:18px;}
+.fee-form-radio span{ position:relative; padding:5px; border-radius:50%; border:1px solid #777; margin-right:10px; color:#fff;}
+.fee-form-radio span.actived{ border-color:#ee7929; background-color:#ee7929;}
+.fee-form-radio span.actived:before{ opacity:1;}
+.fee-form-radio span:before{ opacity:0;}
+.fee-form-radio span input{ position:absolute; left:0; opacity:0;}
