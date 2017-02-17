@@ -1,0 +1,79 @@
+<!-- 
+	  ┏┓	   ┏┓
+    ┏┛┻━━━┛┻┓
+    ┃　　　　　　　┃
+    ┃　　　━　　　┃
+    ┃　┳┛　┗┳　┃
+    ┃　　　　　　　┃
+    ┃　　　┻　　　┃
+    ┃　　　　　　　┃
+    ┗━┓     ┏━┛
+　　    ┃　　　┃
+　　    ┃　  　┃
+　　    ┃　  　┗━━━┓
+　　    ┃　  　　　　　┣┓  ━━━━━━   扒代码de请看控制台   ━━━━━━
+　   　 ┃　           ┏┛
+   　　 ┗┓┓┏━┳┓┏┛
+　　   　 ┃┫┫　┃┫┫
+　 　    ┗┻┛　┗┻┛
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Preview</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" />
+	<link rel="stylesheet" href="css/preview.css" />
+	<script data-main="js/main_preview" src="require.js"></script>
+  </head>
+  <body>
+	<!-- 表单区域 -->
+	<form action="" id="preview_form" class="hide">
+		<div class="fee-container-form container">
+			<!-- 加载自定义表单内容区域 -->
+			<div class="fee-editor-m clearfix" id="edit_area"></div>
+			
+			<div class="fee-mob-btn">
+				<button type="submit" class="btn btn-default" >提交审批</button>
+				<button type="button" class="btn btn-default">保存单据</button>
+				<button type="button" class="btn btn-default gray">删除单据</button>
+			</div>
+		</div>
+	</form>
+
+	<div class="fee-form-radio hide">
+    	<label data-target="003"><span class="glyphicon glyphicon-ok actived"><input type="checkbox"></span>借款冲销</label>
+        <label data-target="004"><span class="glyphicon glyphicon-ok actived"><input type="checkbox"></span>对公付款</label>
+    </div>
+
+	<!-- loading -->
+	<div class="modal fade" id="loading" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-body">Loading...</div>
+		</div>
+	  </div>
+	</div>
+	<!-- 加载树形结构时的 -->
+	<div class="modal fade" id="modal_ztree" tabindex="-1" role="dialog">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Modal title</h4>
+		  </div>
+		  <div class="modal-body">
+			<ul id="ztreeDetail" class="ztree"></ul>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary" id="ztree_save">Save changes</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+  </body>
+</html>

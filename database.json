@@ -1,0 +1,614 @@
+{
+  "main": [
+    {
+      "key": "main0",
+      "value": "主表区0",
+      "url": "select-normal.json"
+    },
+    {
+      "key": "main1",
+      "value": "主表区1",
+      "url": "select-tree.json"
+    },
+    {
+      "key": "main2",
+      "value": "主表区2",
+      "url": ""
+    },
+    {
+      "key": "main3",
+      "value": "主表区3",
+      "url": ""
+    },
+    {
+      "key": "main4",
+      "value": "主表区4",
+      "url": ""
+    },
+    {
+      "key": "main5",
+      "value": "主表区5",
+      "url": ""
+    },
+    {
+      "key": "main6",
+      "value": "主表区6",
+      "url": ""
+    },
+    {
+      "key": "main7",
+      "value": "主表区7",
+      "url": ""
+    },
+    {
+      "key": "main8",
+      "value": "主表区8",
+      "url": ""
+    },
+    {
+      "key": "main9",
+      "value": "主表区9",
+      "url": ""
+    },
+    {
+      "key": "main10",
+      "value": "主表区10",
+      "url": ""
+    },
+    {
+      "key": "main11",
+      "value": "主表区11",
+      "url": ""
+    },
+    {
+      "key": "main12",
+      "value": "主表区12",
+      "url": ""
+    },
+    {
+      "key": "main13",
+      "value": "主表区13",
+      "url": ""
+    },
+    {
+      "key": "main14",
+      "value": "主表区14",
+      "url": ""
+    },
+    {
+      "key": "main15",
+      "value": "主表区15",
+      "url": ""
+    },
+    {
+      "key": "main16",
+      "value": "主表区16",
+      "url": ""
+    },
+    {
+      "key": "main17",
+      "value": "主表区17",
+      "url": ""
+    },
+    {
+      "key": "main18",
+      "value": "主表区18",
+      "url": ""
+    },
+    {
+      "key": "main19",
+      "value": "主表区19",
+      "url": ""
+    }
+  ],
+  "detail": [
+    {
+      "key": "detail0",
+      "value": "明细区0",
+      "url": "select-normal.json"
+    },
+    {
+      "key": "detail1",
+      "value": "明细区1",
+      "url": "select-tree.json"
+    },
+    {
+      "key": "detail2",
+      "value": "明细区2",
+      "url": ""
+    },
+    {
+      "key": "detail3",
+      "value": "明细区3",
+      "url": ""
+    },
+    {
+      "key": "detail4",
+      "value": "明细区4",
+      "url": ""
+    },
+    {
+      "key": "detail5",
+      "value": "明细区5",
+      "url": ""
+    },
+    {
+      "key": "detail6",
+      "value": "明细区6",
+      "url": ""
+    },
+    {
+      "key": "detail7",
+      "value": "明细区7",
+      "url": ""
+    },
+    {
+      "key": "detail8",
+      "value": "明细区8",
+      "url": ""
+    },
+    {
+      "key": "detail9",
+      "value": "明细区9",
+      "url": ""
+    },
+    {
+      "key": "detail10",
+      "value": "明细区10",
+      "url": ""
+    },
+    {
+      "key": "detail11",
+      "value": "明细区11",
+      "url": ""
+    },
+    {
+      "key": "detail12",
+      "value": "明细区12",
+      "url": ""
+    },
+    {
+      "key": "detail13",
+      "value": "明细区13",
+      "url": ""
+    },
+    {
+      "key": "detail14",
+      "value": "明细区14",
+      "url": ""
+    },
+    {
+      "key": "detail15",
+      "value": "明细区15",
+      "url": ""
+    },
+    {
+      "key": "detail16",
+      "value": "明细区16",
+      "url": ""
+    },
+    {
+      "key": "detail17",
+      "value": "明细区17",
+      "url": ""
+    },
+    {
+      "key": "detail18",
+      "value": "明细区18",
+      "url": ""
+    },
+    {
+      "key": "detail19",
+      "value": "明细区19",
+      "url": ""
+    }
+  ],
+  "payment": [
+    {
+      "key": "payment0",
+      "value": "付款区0",
+      "url": "select-normal.json"
+    },
+    {
+      "key": "payment1",
+      "value": "付款区1",
+      "url": "select-tree.json"
+    },
+    {
+      "key": "payment2",
+      "value": "付款区2",
+      "url": ""
+    },
+    {
+      "key": "payment3",
+      "value": "付款区3",
+      "url": ""
+    },
+    {
+      "key": "payment4",
+      "value": "付款区4",
+      "url": ""
+    },
+    {
+      "key": "payment5",
+      "value": "付款区5",
+      "url": ""
+    },
+    {
+      "key": "payment6",
+      "value": "付款区6",
+      "url": ""
+    },
+    {
+      "key": "payment7",
+      "value": "付款区7",
+      "url": ""
+    },
+    {
+      "key": "payment8",
+      "value": "付款区8",
+      "url": ""
+    },
+    {
+      "key": "payment9",
+      "value": "付款区9",
+      "url": ""
+    },
+    {
+      "key": "payment10",
+      "value": "付款区10",
+      "url": ""
+    },
+    {
+      "key": "payment11",
+      "value": "付款区11",
+      "url": ""
+    },
+    {
+      "key": "payment12",
+      "value": "付款区12",
+      "url": ""
+    },
+    {
+      "key": "payment13",
+      "value": "付款区13",
+      "url": ""
+    },
+    {
+      "key": "payment14",
+      "value": "付款区14",
+      "url": ""
+    },
+    {
+      "key": "payment15",
+      "value": "付款区15",
+      "url": ""
+    },
+    {
+      "key": "payment16",
+      "value": "付款区16",
+      "url": ""
+    },
+    {
+      "key": "payment17",
+      "value": "付款区17",
+      "url": ""
+    },
+    {
+      "key": "payment18",
+      "value": "付款区18",
+      "url": ""
+    },
+    {
+      "key": "payment19",
+      "value": "付款区19",
+      "url": ""
+    }
+  ],
+  "rever": [
+    {
+      "key": "rever0",
+      "value": "冲销区0",
+      "url": "select-normal.json"
+    },
+    {
+      "key": "rever1",
+      "value": "冲销区1",
+      "url": "select-tree.json"
+    },
+    {
+      "key": "rever2",
+      "value": "冲销区2",
+      "url": ""
+    },
+    {
+      "key": "rever3",
+      "value": "冲销区3",
+      "url": ""
+    },
+    {
+      "key": "rever4",
+      "value": "冲销区4",
+      "url": ""
+    },
+    {
+      "key": "rever5",
+      "value": "冲销区5",
+      "url": ""
+    },
+    {
+      "key": "rever6",
+      "value": "冲销区6",
+      "url": ""
+    },
+    {
+      "key": "rever7",
+      "value": "冲销区7",
+      "url": ""
+    },
+    {
+      "key": "rever8",
+      "value": "冲销区8",
+      "url": ""
+    },
+    {
+      "key": "rever9",
+      "value": "冲销区9",
+      "url": ""
+    },
+    {
+      "key": "rever10",
+      "value": "冲销区10",
+      "url": ""
+    },
+    {
+      "key": "rever11",
+      "value": "冲销区11",
+      "url": ""
+    },
+    {
+      "key": "rever12",
+      "value": "冲销区12",
+      "url": ""
+    },
+    {
+      "key": "rever13",
+      "value": "冲销区13",
+      "url": ""
+    },
+    {
+      "key": "rever14",
+      "value": "冲销区14",
+      "url": ""
+    },
+    {
+      "key": "rever15",
+      "value": "冲销区15",
+      "url": ""
+    },
+    {
+      "key": "rever16",
+      "value": "冲销区16",
+      "url": ""
+    },
+    {
+      "key": "rever17",
+      "value": "冲销区17",
+      "url": ""
+    },
+    {
+      "key": "rever18",
+      "value": "冲销区18",
+      "url": ""
+    },
+    {
+      "key": "rever19",
+      "value": "冲销区19",
+      "url": ""
+    }
+  ],
+  "share": [
+    {
+      "key": "share0",
+      "value": "分摊区0",
+      "url": "select-normal.json"
+    },
+    {
+      "key": "share1",
+      "value": "分摊区1",
+      "url": "select-tree.json"
+    },
+    {
+      "key": "share2",
+      "value": "分摊区2",
+      "url": ""
+    },
+    {
+      "key": "share3",
+      "value": "分摊区3",
+      "url": ""
+    },
+    {
+      "key": "share4",
+      "value": "分摊区4",
+      "url": ""
+    },
+    {
+      "key": "share5",
+      "value": "分摊区5",
+      "url": ""
+    },
+    {
+      "key": "share6",
+      "value": "分摊区6",
+      "url": ""
+    },
+    {
+      "key": "share7",
+      "value": "分摊区7",
+      "url": ""
+    },
+    {
+      "key": "share8",
+      "value": "分摊区8",
+      "url": ""
+    },
+    {
+      "key": "share9",
+      "value": "分摊区9",
+      "url": ""
+    },
+    {
+      "key": "share10",
+      "value": "分摊区10",
+      "url": ""
+    },
+    {
+      "key": "share11",
+      "value": "分摊区11",
+      "url": ""
+    },
+    {
+      "key": "share12",
+      "value": "分摊区12",
+      "url": ""
+    },
+    {
+      "key": "share13",
+      "value": "分摊区13",
+      "url": ""
+    },
+    {
+      "key": "share14",
+      "value": "分摊区14",
+      "url": ""
+    },
+    {
+      "key": "share15",
+      "value": "分摊区15",
+      "url": ""
+    },
+    {
+      "key": "share16",
+      "value": "分摊区16",
+      "url": ""
+    },
+    {
+      "key": "share17",
+      "value": "分摊区17",
+      "url": ""
+    },
+    {
+      "key": "share18",
+      "value": "分摊区18",
+      "url": ""
+    },
+    {
+      "key": "share19",
+      "value": "分摊区19",
+      "url": ""
+    }
+  ],
+  "repay": [
+    {
+      "key": "repay0",
+      "value": "还款区0",
+      "url": "select-normal.json"
+    },
+    {
+      "key": "repay1",
+      "value": "还款区1",
+      "url": "select-tree.json"
+    },
+    {
+      "key": "repay2",
+      "value": "还款区2",
+      "url": ""
+    },
+    {
+      "key": "repay3",
+      "value": "还款区3",
+      "url": ""
+    },
+    {
+      "key": "repay4",
+      "value": "还款区4",
+      "url": ""
+    },
+    {
+      "key": "repay5",
+      "value": "还款区5",
+      "url": ""
+    },
+    {
+      "key": "repay6",
+      "value": "还款区6",
+      "url": ""
+    },
+    {
+      "key": "repay7",
+      "value": "还款区7",
+      "url": ""
+    },
+    {
+      "key": "repay8",
+      "value": "还款区8",
+      "url": ""
+    },
+    {
+      "key": "repay9",
+      "value": "还款区9",
+      "url": ""
+    },
+    {
+      "key": "repay10",
+      "value": "还款区10",
+      "url": ""
+    },
+    {
+      "key": "repay11",
+      "value": "还款区11",
+      "url": ""
+    },
+    {
+      "key": "repay12",
+      "value": "还款区12",
+      "url": ""
+    },
+    {
+      "key": "repay13",
+      "value": "还款区13",
+      "url": ""
+    },
+    {
+      "key": "repay14",
+      "value": "还款区14",
+      "url": ""
+    },
+    {
+      "key": "repay15",
+      "value": "还款区15",
+      "url": ""
+    },
+    {
+      "key": "repay16",
+      "value": "还款区16",
+      "url": ""
+    },
+    {
+      "key": "repay17",
+      "value": "还款区17",
+      "url": ""
+    },
+    {
+      "key": "repay18",
+      "value": "还款区18",
+      "url": ""
+    },
+    {
+      "key": "repay19",
+      "value": "还款区19",
+      "url": ""
+    }
+  ]
+}

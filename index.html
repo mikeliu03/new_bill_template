@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Index</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom-form.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	
+  </head>
+  <body class="layout-auto">
+	<!-- custom form header -->
+	<div class="custom-header">
+		<div class="custom-logo"><img src="images/logo2.png"></div>
+		<div class="custom-module-menu" tabindex="0" role="button" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="折叠菜单">
+			<span class="glyphicon glyphicon-play"></span>
+		</div>
+		<div id="save" class="custom-user" tabindex="0" role="button" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="保存">
+			<span class="glyphicon glyphicon-floppy-open"></span>
+		</div>
+	</div>
+	<!-- custom form header -->
+
+	<!-- custom form siderbar -->
+	<div class="custom-siderbar hideset" id="set_area">
+		<div class="custom-set" id="title_set" style="display:none;">
+			<h5>属性设置</h5>
+			<dl>
+				<dt>标题</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="标题" id="title_set_title">
+				</dd>
+			</dl>
+		</div>
+
+		<div class="custom-set" id="module_set" style="display:none;">
+			<h5>属性设置</h5>
+			<dl>
+				<dt>标题</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="标题" id="module_set_title">
+				</dd>
+			</dl>
+			<dl>
+				<dt>模块类型</dt>
+				<dd>
+					<div class="form-searchlist form-searchlist-sm" id="module_set_type_resource">
+					  <input type="text" class="form-control input-sm" placeholder="请选择" disabled>
+					  <span class="arrow icon-keyboard_arrow_down"></span>
+					  <div class="searchlist-dropdown">
+						<div class="searchlist-dropdown-search"><input type="text" class="form-control input-sm"></div>
+						<ul>
+							<li data-value="" class="current">请选择</li>
+							<li data-value="main">主表区</li>
+							<li data-value="detail">明细区</li>
+							<li data-value="payment">付款区</li>
+							<li data-value="rever">冲销区</li>
+							<li data-value="share">分摊区</li>
+							<li data-value="repay">还款区</li>
+						</ul>
+					  </div>
+					</div>
+				</dd>
+			</dl>
+		</div>
+
+		<div class="custom-set" id="text_set" style="display:none;">
+			<h5>属性设置</h5>
+			<dl>
+				<dt>是否必填</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="text_set_required">
+						<label for="text_set_required"></label>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>前缀</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="前缀" id="text_set_prefix">
+				</dd>
+			</dl>
+			<dl>
+				<dt>后缀</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="后缀" id="text_set_suffix">
+				</dd>
+			</dl>
+			<dl>
+				<dt>宽度(%)</dt>
+				<dd>
+					<input type="number" class="form-control input-sm" placeholder="宽度" id="text_set_width"  min="10" max="100">
+				</dd>
+			</dl>
+			<dl>
+				<dt>绑定字段</dt>
+				<dd>
+					<div class="form-searchlist form-searchlist-sm" id="text_set_text_resource">
+					  <input type="text" class="form-control input-sm" placeholder="请选择" disabled>
+					  <span class="arrow icon-keyboard_arrow_down"></span>
+					  <div class="searchlist-dropdown">
+						<div class="searchlist-dropdown-search"><input type="text" class="form-control input-sm"></div>
+						<ul></ul>
+					  </div>
+					</div>
+				</dd>
+			</dl>
+			<h5>验证设置</h5>
+			<dl>
+				<dt>提示</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" id="text_set_placeholder">
+				</dd>
+			</dl>
+			<dl>
+				<dt>最大范围</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" id="text_set_maxlength">
+				</dd>
+			</dl>
+			<dl>
+				<dt>数字验证</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="text_set_valid_number">
+						<label for="text_set_valid_number"></label>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>小数验证</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="text_set_valid_digit">
+						<label for="text_set_valid_digit"></label>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>URL验证</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="text_set_valid_url">
+						<label for="text_set_valid_url"></label>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>Email验证</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="text_set_valid_email">
+						<label for="text_set_valid_email"></label>
+					</div>
+				</dd>
+			</dl>
+		</div>
+
+		<div class="custom-set" id="datetime_set" style="display:none;">
+			<h5>属性设置</h5>
+			<dl>
+				<dt>是否必填</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="datetime_set_required">
+						<label for="text_set_required"></label>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>前缀</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="前缀" id="datetime_set_prefix">
+				</dd>
+			</dl>
+			<dl>
+				<dt>后缀</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="后缀" id="datetime_set_suffix">
+				</dd>
+			</dl>
+			<dl>
+				<dt>宽度(%)</dt>
+				<dd>
+					<input type="number" class="form-control input-sm" placeholder="宽度" id="datetime_set_width" min="10" max="100">
+				</dd>
+			</dl>
+			<dl>
+				<dt>绑定字段</dt>
+				<dd>
+					<div class="form-searchlist form-searchlist-sm" id="datetime_set_text_resource">
+					  <input type="text" class="form-control input-sm" placeholder="请选择" disabled>
+					  <span class="arrow icon-keyboard_arrow_down"></span>
+					  <div class="searchlist-dropdown">
+						<div class="searchlist-dropdown-search"><input type="text" class="form-control input-sm"></div>
+						<ul></ul>
+					  </div>
+					</div>
+				</dd>
+			</dl>
+			<h5>验证设置</h5>
+			<dl>
+				<dt>提示</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" id="datetime_set_placeholder">
+				</dd>
+			</dl>
+			<dl>
+				<dt>默认日期</dt>
+				<dd>
+					<input type="number" class="form-control input-sm" id="datetime_set_dft_day" min="-5" max="5" maxlength="1">
+				</dd>
+			</dl>
+		</div>
+
+		<div class="custom-set" id="select_set" style="display:none;">
+			<h5>属性设置</h5>
+			<dl>
+				<dt>是否必填</dt>
+				<dd>
+					<div class="switch-custom switch-primary custom-siderbar-switch">
+						<input type="checkbox" class="hidden" id="select_set_required">
+						<label for="select_set_required"></label>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>名称</dt>
+				<dd>
+					<input type="text" class="form-control input-sm" placeholder="标题" id="select_set_name">
+				</dd>
+			</dl>
+			<dl>
+				<dt>宽度(%)</dt>
+				<dd>
+					<input type="number" class="form-control input-sm" placeholder="宽度" id="select_set_width"  min="10" max="100">
+				</dd>
+			</dl>
+			<dl>
+				<dt>绑定字段</dt>
+				<dd>
+					<div class="form-searchlist form-searchlist-sm" id="select_set_text_resource">
+					  <input type="text" class="form-control input-sm" placeholder="请选择" disabled>
+					  <span class="arrow icon-keyboard_arrow_down"></span>
+					  <div class="searchlist-dropdown">
+						<div class="searchlist-dropdown-search"><input type="text" class="form-control input-sm"></div>
+						<ul></ul>
+					  </div>
+					</div>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<!-- custom form siderbar -->
+
+	<!-- custom form module -->
+	<div class="custom-module" id="add_area">
+		<h4>添加元素</h4>
+		<ul>
+			<li><span class="glyphicon glyphicon-paste"></span><font>自定义模块</font></li>
+			<li><span class="glyphicon glyphicon-text-size"></span><font>文本框</font></li>
+			<li><span class="glyphicon glyphicon-sort-by-attributes-alt"></span><font>下拉框</font></li>
+			<li><span class="glyphicon glyphicon-calendar"></span><font>日期控件</font></li>
+		</ul>
+	</div>
+	<!-- custom form module -->
+
+	<!-- custom form body -->
+	<div class="custom-body container" id="edit_area">
+		<div class="custom-mob custom-mob-header" data-resource="main" name="main">
+			<h4 id="cem_title">模板标题</h4>
+			<div class="custom-mob-body">
+				<div class="prompt"><span class="glyphicon glyphicon-plus"></span>左侧控件拖放至此处添加</div>
+			</div>
+		</div>
+	</div>
+	<!-- custom form body -->
+
+	<!--左侧拖拽时move的样式-->
+    <div class="drag-block hide">
+    	<span class="glyphicon glyphicon-paste"></span><font>自定义模块</font>
+    </div>
+
+	<div class="empty hide"><i class="glyphicon glyphicon-plus"></i></div>
+
+	<div class="fee-addmob hide"><span class="glyphicon glyphicon-plus"></span></div>
+
+	<!-- loading -->
+	<div class="modal fade" id="loading" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-body">Loading...</div>
+		</div>
+	  </div>
+	</div>
+  </body>
+  <script data-main="js/main" src="require.js"></script>
+</html>
